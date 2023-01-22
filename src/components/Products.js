@@ -13,7 +13,7 @@ const Products = ({items, addFavourite}) => {
           </header>
           <p className='item-text'>{desc}</p>
           <button className="dugme object-fit-scale border-0 rounded-circle"type='button'
-          >
+          onClick={()=>addFavourite(id)}>
           <AiFillStar/></button>
         </div>  
         

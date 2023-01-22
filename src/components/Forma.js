@@ -19,7 +19,7 @@ function Forma(){
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div className="col-md-12">
-                 <button type="submit" className="btn btn-secondary btn-sm mt-3" >Prosledi</button>
+                 <button type="submit" className="btn btn-secondary btn-sm mt-3" onClick={()=>{ alert('Uspešno slanje!');}}>Prosledi</button>
             </div>
                
         </form>
